@@ -1,0 +1,63 @@
+.form-head{
+  font-weight: 200;
+  width: 100%;
+  background-color: var(--accent);
+  padding: 10px;
+  font-size: 25px;
+  color: var(--secondary);
+  border-radius: 5px;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.input-box{
+  width: 70%;
+  /* background-color: powderblue; */
+  padding: 20px;
+  margin: 20px;
+}
+.book-label{
+  font-size: 20px;
+  margin-right: 30px;
+}
+.book-input{
+  border: 1px solid var(--accent);
+  border-radius: 5px;
+  margin: 10px;
+  width: 90%;
+  height: 40px;
+  padding: 10px;
+}
+.book-input:focus{
+  border: 1px solid var(--highlight);
+}
+#submit{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.submitButton{
+  width: 25%;
+  transition: 0.5s;
+}
+.submitButton:hover{
+  background-color: var(--primary);
+  scale: 1.1;
+  transition: 0.5s;
+  font-size: 17px;
+}
+#image_uploads{
+  margin: 10px;
+}
+#hint{
+  margin: 0px 0px 10px 10px;
+  opacity: 25%;
+  font-size: 15px;
+}
+#reviews{
+  height: 50px;
+}
